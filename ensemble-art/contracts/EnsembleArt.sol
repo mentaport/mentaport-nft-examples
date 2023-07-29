@@ -1,8 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
-import "../staticStorage/MentaportDynamic.sol";
-import "./MentaportERC721.sol";
-import "./MentaportMint.sol";
+import "./modules/MentaportMint.sol";
 /**                                            
        
              ___           ___           ___                         ___           ___         ___           ___                   

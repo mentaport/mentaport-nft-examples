@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
-import "../IMentaportERC721.sol";
-import "../MentaportVerify.sol";
+import "../interfaces/IMentaportERC721.sol";
+import "./MentaportVerify.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
