@@ -1,7 +1,20 @@
 {
+  "name": "@mentaport/ensemble-art",
+  "version": "1.0.0",
+  "description": "Ensemble Art smart contracts",
+  "main": "index.js",
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "EVM",
+    "smart",
+    "contracts",
+    "NFT",
+    "mentaport"
+  ],
+  "author": "Mentaport <developers@mentaport.com>",
   "devDependencies": {
-    "@gelatonetwork/relay-context": "^2.1.0",
-    "@openzeppelin/contracts": "^4.8.2",
+    "@mentaport/contracts-solidity": "file:/Users/marialemontenegro/Mentaport/Development/blockchain/EVM/Development/truffle-project-dev/truffle/mentaport-contracts-solidity-0.0.1.tgz",
     "truffle-plugin-verify": "^0.6.2"
   },
   "dependencies": {
@@ -14,6 +27,6 @@
   },
   "scripts": {
     "lint:sol": "node_modules/.bin/solium -d contracts/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test"
   }
 }
