@@ -14,19 +14,20 @@
   ],
   "author": "Mentaport <developers@mentaport.com>",
   "devDependencies": {
-    "@mentaport/contracts-solidity": "file:/Users/marialemontenegro/Mentaport/Development/blockchain/EVM/Development/truffle-project-dev/truffle/mentaport-contracts-solidity-0.0.1.tgz",
+    "solhint": "^3.6.1",
+    "solhint-plugin-prettier": "^0.0.5",
     "truffle-plugin-verify": "^0.6.2"
   },
   "dependencies": {
+    "@mentaport/solidity-contracts": "^0.0.2",
     "@truffle/hdwallet-provider": "^2.1.1",
-    "@zerodevapp/sdk": "^3.1.53",
     "dotenv": "^16.0.3",
-    "ethers": "^5.7.2",
     "truffle-assertions": "^0.9.2",
     "truffle-contract-size": "^2.0.1"
   },
   "scripts": {
-    "lint:sol": "node_modules/.bin/solium -d contracts/",
+    "lint:sol": "solhint 'contracts/**/*.sol'",
+    "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol",
     "test": "truffle test"
   }
 }
