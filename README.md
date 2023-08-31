@@ -14,12 +14,16 @@ minting NFT's with location properties and location rules. The `EnsembleArt` con
 
 [https://enseble.mentaport.xyz](https://ensemble.mentaport.xyz)
 
+[https://opensea.io/collection/ensemble-art](https://opensea.io/collection/ensemble-art)
+
 ### Stamps Polygon
 `stamps-polygon` is an example contract that extends Mentaport's base contracts that shows how to use more 
 fine-grained controls for minting location-aware NFTs. The `MentaportStamps` extends other Mentaport base
 contracts, allowing it to have more control over setting roles, rules, etc. 
 
 [https://stamps.mentaport.xyz](https://stamps.mentaport.xyz)
+
+[https://opensea.io/collection/mentaportstamps](https://opensea.io/collection/mentaportstamps)
 
 ### Setup
 Follow these stops to setup and test the contracts:
